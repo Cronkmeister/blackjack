@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blackjack Game</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <h1>Blackjack Game</h1>
+  <button id="deal-button">Deal</button>
+  <button id="hit-button">Hit</button>
+  <button id="stand-button">Stand</button>
+  <div id="message"></div>
+  <div id="player-hand">
+    <h2>Player's Hand</h2>
+    <div id="player-cards"></div>
+    <p id="player-score">Score: 0</p>
+  </div>
+  <div id="dealer-hand">
+    <h2>Dealer's Hand</h2>
+    <div id="dealer-cards"></div>
+    <p id="dealer-score">Score: 0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
